@@ -46,11 +46,11 @@ for i in range(n//2-1, n):
         elif i == n//2-1:
               
             if j == m//2-1 or j == m//2+1:
-                print('I', end=" ")
-            elif j == m//2:
-                print('L', end=" ")
-            else:
                 print('U', end=" ")
+            elif j == m//2:
+                print('w', end=" ")
+            else:
+                print(' ', end=" ")
                   
         # condition for printing spaces
         else:
